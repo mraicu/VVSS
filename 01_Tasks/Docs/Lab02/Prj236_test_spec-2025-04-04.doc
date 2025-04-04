@@ -12,62 +12,49 @@
 <p style="text-align: center;"><img alt="TestLink logo" title="configure using $tlCfg->document_generator->company_logo"  width= height= src="https://www.scs.ubbcluj.ro/testlink/gui/themes/default/images/tl-logo-transparent-25.png" /></p></div>
 <div class="doc_title"><p>Test Specification</p></div>
 <div class="doc_title" style="text-align:left;margin: auto;"><p>Test Project: Proiect236<br/>Test Suite: Proiect236 - rmir3407_BBT</p></div>
-<div class="summary"><p id="printedby">Printed by TestLink on 03/04/2025</p></div>
+<div class="summary"><p id="printedby">Printed by TestLink on 04/04/2025</p></div>
 <div class="pagefooter" id="copyright">2012 &copy; TestLink Community</div>
 <h1 class="general" style="page-break-before: always">Table Of Contents</h1><div class="toc"><p style="padding-left: 20px;"><b><a href="#toc_1">1.rmir3407_BBT</a></b></p>
-<p style="padding-left: 45px;"><a href="#toc_tc24947">Prj236-25: AdaugareTaskValidECP</a></p><p style="padding-left: 45px;"><a href="#toc_tc24949">Prj236-26: AdaugareTaskInvalidECP</a></p><p style="padding-left: 45px;"><a href="#toc_tc24951">Prj236-27: AdaugareTaskValidBVA</a></p><p style="padding-left: 45px;"><a href="#toc_tc24954">Prj236-28: AdaugareTaskInvalidBVA</a></p></div><h1 class="doclevel" >Scope</h1>
+<p style="padding-left: 45px;"><a href="#toc_tc25188">Prj236-44: TC1_ECP</a></p><p style="padding-left: 45px;"><a href="#toc_tc25190">Prj236-45: TC2_ECP</a></p><p style="padding-left: 45px;"><a href="#toc_tc25192">Prj236-46: TC3_ECP</a></p></div><h1 class="doclevel" >Scope</h1>
 <div class="txtlevel"><p>Proiect de testare pentru studentii din grupa 236.</p></div>
  <br/><a name='toc_1'></a>
 <h1 class='doclevel'>1.Test Suite : rmir3407_BBT</h1>
 <div><p>Testare adaugarea unei sarcini.</p>
-</div><a name="toc_tc24947"></a><p>&nbsp;</p><div> <table class="tc" width="90%" ><tr><th colspan="4">Test Case Prj236-25: AdaugareTaskValidECP&nbsp;<span style="font-size: 80%;">[Version  : 1]</span></th></tr>
+</div><a name="toc_tc25188"></a><p>&nbsp;</p><div> <table class="tc" width="90%" ><tr><th colspan="4">Test Case Prj236-44: TC1_ECP&nbsp;<span style="font-size: 80%;">[Version  : 1]</span></th></tr>
 <tr><td width="20%" valign="top"><span class="label">Author:</span></td><td colspan="3">rmir3407</td></tr>
-<tr><td colspan="4"><span class="label">Summary:</span><br /><p>Se verifica adaugarea unei sarcini valide.</p>
-</td></tr><tr><td colspan="4"><span class="label">Preconditions:</span><br /><p>Sarcina este valida.</p>
+<tr><td colspan="4"><span class="label">Summary:</span><br /><p>Adaugarea unui task valid</p>
+</td></tr><tr><td colspan="4"><span class="label">Preconditions:</span><br /><p>title is String, start is Date, end is Date, interval&gt;0, active is Boolean</p>
 </td></tr><tr><td width="20%" valign="top"><span class="label">Execution type:</span></td><td colspan="3">Manual</td></tr>
 <tr><td width="20%" valign="top"><span class="label">Estimated exec. duration (min):</span></td><td colspan="3"></td></tr>
 <tr><td width="20%" valign="top"><span class="label">Importance:</span></td><td colspan="3">Medium</td></tr>
-<tr><td colspan="4"></td></tr><tr><td > name of the autotest class:</td><td  colspan = "3" >Tasks.TestAdaugareTask</td></tr>
+<tr><td colspan="4"></td></tr><tr><td > name of the autotest class:</td><td  colspan = "3" >TC1_ECP</td></tr>
 <tr><td > name of the test method:</td><td  colspan = "3" >Tasks.TestAdaugareTask#testAdaugaSarcinaValidaECP</td></tr>
 <tr><td width="20%" valign="top"><span class="label">Requirements</span><td colspan="3">rmir3407_F01:  Tasks [Version : 1]<br /></td></tr>
 <tr><td width="20%" valign="top"><span class="label">Keywords:</span></td><td colspan="3">&nbsp;None<br/></td></tr>
 </table>
 </div>
-<a name="toc_tc24949"></a><p>&nbsp;</p><div> <table class="tc" width="90%" ><tr><th colspan="4">Test Case Prj236-26: AdaugareTaskInvalidECP&nbsp;<span style="font-size: 80%;">[Version  : 1]</span></th></tr>
+<a name="toc_tc25190"></a><p>&nbsp;</p><div> <table class="tc" width="90%" ><tr><th colspan="4">Test Case Prj236-45: TC2_ECP&nbsp;<span style="font-size: 80%;">[Version  : 1]</span></th></tr>
 <tr><td width="20%" valign="top"><span class="label">Author:</span></td><td colspan="3">rmir3407</td></tr>
-<tr><td colspan="4"><span class="label">Summary:</span><br /><p>Se verifica adaugarea unei sarcini invalide.</p>
-</td></tr><tr><td colspan="4"><span class="label">Preconditions:</span><br /><p>Sarcina este invalida.</p>
+<tr><td colspan="4"><span class="label">Summary:</span><br /><p>Se verifica adaugarea unei date de inceput parsabile</p>
+</td></tr><tr><td colspan="4"><span class="label">Preconditions:</span><br /><p>title is String, start is Date, end is Date, interval&gt;0, active is Boolean</p>
 </td></tr><tr><td width="20%" valign="top"><span class="label">Execution type:</span></td><td colspan="3">Manual</td></tr>
 <tr><td width="20%" valign="top"><span class="label">Estimated exec. duration (min):</span></td><td colspan="3"></td></tr>
 <tr><td width="20%" valign="top"><span class="label">Importance:</span></td><td colspan="3">Medium</td></tr>
-<tr><td colspan="4"></td></tr><tr><td > name of the autotest class:</td><td  colspan = "3" >Tasks.TestAdaugareTask</td></tr>
+<tr><td colspan="4"></td></tr><tr><td > name of the autotest class:</td><td  colspan = "3" >TC2_ECP</td></tr>
 <tr><td > name of the test method:</td><td  colspan = "3" >Tasks.TestAdaugareTask#testAdaugaSarcinaInalidaECP</td></tr>
 <tr><td width="20%" valign="top"><span class="label">Requirements</span><td colspan="3">rmir3407_F01:  Tasks [Version : 1]<br /></td></tr>
 <tr><td width="20%" valign="top"><span class="label">Keywords:</span></td><td colspan="3">&nbsp;None<br/></td></tr>
 </table>
 </div>
-<a name="toc_tc24951"></a><p>&nbsp;</p><div> <table class="tc" width="90%" ><tr><th colspan="4">Test Case Prj236-27: AdaugareTaskValidBVA&nbsp;<span style="font-size: 80%;">[Version  : 1]</span></th></tr>
+<a name="toc_tc25192"></a><p>&nbsp;</p><div> <table class="tc" width="90%" ><tr><th colspan="4">Test Case Prj236-46: TC3_ECP&nbsp;<span style="font-size: 80%;">[Version  : 1]</span></th></tr>
 <tr><td width="20%" valign="top"><span class="label">Author:</span></td><td colspan="3">rmir3407</td></tr>
-<tr><td colspan="4"><span class="label">Summary:</span><br /><p>Se verifica adaugarea unei sarcini valide.</p>
-</td></tr><tr><td colspan="4"><span class="label">Preconditions:</span><br /><p>Sarcina este valida.</p>
+<tr><td colspan="4"><span class="label">Summary:</span><br /><p>Se verifica adaugarea unui task cu intervalul &lt; 0</p>
+</td></tr><tr><td colspan="4"><span class="label">Preconditions:</span><br /><p>title is String, start is Date, end is Date, interval&gt;0, active is Boolean</p>
 </td></tr><tr><td width="20%" valign="top"><span class="label">Execution type:</span></td><td colspan="3">Manual</td></tr>
 <tr><td width="20%" valign="top"><span class="label">Estimated exec. duration (min):</span></td><td colspan="3"></td></tr>
 <tr><td width="20%" valign="top"><span class="label">Importance:</span></td><td colspan="3">Medium</td></tr>
-<tr><td colspan="4"></td></tr><tr><td > name of the autotest class:</td><td  colspan = "3" >Tasks.TestAdaugareTask</td></tr>
-<tr><td > name of the test method:</td><td  colspan = "3" >Tasks.TestAdaugareTask#testAdaugaSarcinaValidaBVA</td></tr>
-<tr><td width="20%" valign="top"><span class="label">Requirements</span><td colspan="3">rmir3407_F01:  Tasks [Version : 1]<br /></td></tr>
-<tr><td width="20%" valign="top"><span class="label">Keywords:</span></td><td colspan="3">&nbsp;None<br/></td></tr>
-</table>
-</div>
-<a name="toc_tc24954"></a><p>&nbsp;</p><div> <table class="tc" width="90%" ><tr><th colspan="4">Test Case Prj236-28: AdaugareTaskInvalidBVA&nbsp;<span style="font-size: 80%;">[Version  : 1]</span></th></tr>
-<tr><td width="20%" valign="top"><span class="label">Author:</span></td><td colspan="3">rmir3407</td></tr>
-<tr><td colspan="4"><span class="label">Summary:</span><br /><p>Se verifica adaugarea unei sarcini invalide.</p>
-</td></tr><tr><td colspan="4"><span class="label">Preconditions:</span><br /><p>Sarcina este invalida.</p>
-</td></tr><tr><td width="20%" valign="top"><span class="label">Execution type:</span></td><td colspan="3">Manual</td></tr>
-<tr><td width="20%" valign="top"><span class="label">Estimated exec. duration (min):</span></td><td colspan="3"></td></tr>
-<tr><td width="20%" valign="top"><span class="label">Importance:</span></td><td colspan="3">Medium</td></tr>
-<tr><td colspan="4"></td></tr><tr><td > name of the autotest class:</td><td  colspan = "3" >Tasks.TestAdaugareTask</td></tr>
-<tr><td > name of the test method:</td><td  colspan = "3" >Tasks.TestAdaugareTask#testAdaugaSarcinaInalidaBVA</td></tr>
+<tr><td colspan="4"></td></tr><tr><td > name of the autotest class:</td><td  colspan = "3" >TC3_ECP</td></tr>
+<tr><td > name of the test method:</td><td  colspan = "3" >Tasks.TestAdaugareTask#testAdaugaSarcinaInalidaECP</td></tr>
 <tr><td width="20%" valign="top"><span class="label">Requirements</span><td colspan="3">rmir3407_F01:  Tasks [Version : 1]<br /></td></tr>
 <tr><td width="20%" valign="top"><span class="label">Keywords:</span></td><td colspan="3">&nbsp;None<br/></td></tr>
 </table>
