@@ -72,3 +72,9 @@
 2025-04-04 18:11:17 INFO  TaskIOService:32 - Task was added!
 2025-04-04 18:11:17 ERROR Task:86 - interval <= 0
 2025-04-04 18:11:17 INFO  TaskIOService:32 - Task was added!
+2025-04-10 13:33:53 ERROR Task:86 - interval <= 0
+2025-04-10 13:34:01 ERROR Task:86 - interval <= 0
+2025-04-10 13:34:06 ERROR Task:86 - interval <= 0
+2025-04-10 13:34:14 ERROR Task:86 - interval <= 0
+2025-04-10 13:34:20 ERROR Task:86 - interval <= 0
+2025-04-10 13:35:07 ERROR Task:86 - interval <= 0
