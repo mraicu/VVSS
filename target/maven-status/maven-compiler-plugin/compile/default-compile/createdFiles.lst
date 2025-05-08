@@ -1,0 +1,14 @@
+tasks\controller\Notificator.class
+tasks\model\ArrayTaskList.class
+tasks\controller\EditController.class
+tasks\view\Main.class
+tasks\controller\NewController.class
+tasks\services\DateService.class
+module-info.class
+tasks\controller\Controller.class
+tasks\controller\TaskInfoController.class
+tasks\model\TaskList.class
+tasks\services\TaskIOService.class
+tasks\model\ArrayTaskList$ArrayTaskListIterator.class
+tasks\model\Task.class
+tasks\services\TasksService.class
