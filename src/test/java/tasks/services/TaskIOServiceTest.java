@@ -13,6 +13,8 @@ class TaskIOServiceTest {
 
     @Test
     void addTaskValidECP() {
+        Task task;
+
         TaskIOService.setTaskList(new ArrayList<>());
 
         try {
