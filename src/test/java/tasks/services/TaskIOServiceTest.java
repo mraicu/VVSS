@@ -1,6 +1,5 @@
 package tasks.services;
 
-import org.junit.jupiter.api.BeforeAll;
 import org.junit.jupiter.api.Test;
 import tasks.model.Task;
 
@@ -13,7 +12,7 @@ class TaskIOServiceTest {
 
     @Test
     void addTaskValidECP() {
-        Task task;
+//        Task task;
 
         TaskIOService.setTaskList(new ArrayList<>());
 
