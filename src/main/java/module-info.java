@@ -13,4 +13,6 @@ module tasks {
     exports tasks.controller;
     opens tasks.services;
     exports tasks.services;
+    opens tasks.model;
+    exports tasks.model;
 }
