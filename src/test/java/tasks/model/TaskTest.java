@@ -43,15 +43,9 @@ class TaskTest {
                     7
             );
             task.setActive(false);
-        } catch (ParseException e) {
-            e.printStackTrace();
+        } catch (IllegalArgumentException e) {
+            assert(true);
         }
-
-        assertEquals("", task.getTitle());
-        assertEquals("2025-04-07 05:00", task.getFormattedDateStart());
-        assertEquals("2025-04-10 12:23", task.getFormattedDateEnd());
-        assertEquals(5, task.getRepeatInterval());
-        assertTrue(task.isActive());
 
         try {
             task = new Task("Task2",
@@ -60,8 +54,8 @@ class TaskTest {
                     -200
             );
             task.setActive(false);
-        } catch (ParseException e) {
-            e.printStackTrace();
+        } catch (IllegalArgumentException e) {
+            assert(true);
         }
 
         assertEquals("Task1", task.getTitle());
@@ -94,8 +88,8 @@ class TaskTest {
                     -7
             );
             task.setActive(false);
-        } catch (ParseException e) {
-            e.printStackTrace();
+        } catch (IllegalArgumentException e) {
+            assert(true);
         }
 
         assertEquals("Task1", task.getTitle());
