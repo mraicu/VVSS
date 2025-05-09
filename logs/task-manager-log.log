@@ -90,3 +90,7 @@
 2025-05-08 14:24:57 INFO  TaskIOService:32 - Task was added!
 2025-05-08 14:24:57 ERROR Task:86 - interval < 0
 2025-05-08 14:39:39 INFO  TaskIOService:32 - Task was added!
+2025-05-09 11:20:36 ERROR Task:86 - interval < 0
+2025-05-09 11:20:36 ERROR Task:86 - interval < 0
+2025-05-09 11:24:39 ERROR Task:86 - interval < 0
+2025-05-09 11:24:39 ERROR Task:86 - interval < 0

@@ -10,7 +10,7 @@ import java.util.List;
 import static org.junit.jupiter.api.Assertions.*;
 import static org.mockito.Mockito.*;
 public class TasksServiceIntegrationTest {
-//    step 3: integrare E (se testează S + R cu E);
+//    Lab04 step 3: integrare E (se testează S + R cu E);
 private TasksService tasksService;
 
     @BeforeEach
